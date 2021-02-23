@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSYEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa> Campia verde</adresa>
+        <strada> Pompierilor </strada>
+        <numar>5B </numar>
+        <localitate>Ipotesti</localitate>
+        <judet>Suceava</judet>
+        <tara>Romania</tara>
+    </persoana>
+      <persoana id="2">
+        <nume>Georgescu</nume>
+        <prenume>Geta</prenume>
+        <varsta>41</varsta>
+        <adresa>Bulevardul T13</adresa>
+        <strada> Bucuriei </strada>
+        <numar>1A </numar>
+        <localitate>Mileanca</localitate>
+        <judet>Botosani</judet>
+        <tara>Romania</tara>
+    </persoana>
+      <persoana id="3">
+        <nume>Horodincu</nume>
+        <prenume>Monica</prenume>
+        <varsta>45</varsta>
+        <adresa> 91052 Mozartstrase</adresa>
+        <strada> Mozartstrase </strada>
+        <numar>91052 </numar>
+        <localitate>Erlagen</localitate>
+        <judet>Nuremberg</judet>
+        <tara>Germania</tara>
+    </persoana>
+    
+</persoane>
