@@ -1,7 +1,7 @@
-<!ELEMENT persoane(nume,prenume,adresa,strada,numar,localitate,judet,tara)>
+<!ELEMENT persoane(nume,prenume,adresa,)>
 <!ELEMENT nume (#PCDATA)>
 <!ELEMENT prenume (#PCDATA)>
-<!ELEMENT adresa (#PCDATA)>
+<!ELEMENT adresa (strada,numar,localitate,judet,tara)>
 <!ELEMENT strada (#PCDATA)>
 <!ELEMENT numar (#PCDATA)>
 <!ELEMENT localitate (#PCDATA)>
