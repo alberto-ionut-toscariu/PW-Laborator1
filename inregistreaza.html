@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="=utf-8">
     <title>Înregistrează </title>
@@ -14,4 +15,77 @@
         <a href="despre html.html">Despre</a>
     </div>
     <hr color="red">
+    <h3>Înregistrează</h3><br>
+    <form>
+        <legend>Form:</legend>
+    <fieldset>
+        <legend>Informații generale:</legend>
+
+
+        <label for="lname">Nume Utilizator:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        
+        <label for="password">Parola:</label>
+        <input type="password"  name="password"><br><br>
+
+        <label for="fname">Nume:</label>
+        <input type="text" name="fname"><br><br>
+        <label for="lname">Prenume:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="telefon">Telefon:</label>
+        <input type="tel" id="telefon" name="telefon"><br><br>
+
+       
+        
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Informații personale:</legend>
+
+
+        Sex:
+    <select>  
+        <option value="Nespecificat">Nespecificat</option>
+        <option value="Masculin" >Masculin</option>
+        <option value="Feminin">Feminin</option>
+        
+    </select>
+    <br><br>
+
+    <label for="mâncare">Mâncarea Preferată:</label>
+    <input list="mâncăruri" name="mâncare" id="mâncare">
+    <datalist id="mâncăruri">
+        <option value="Pizza">
+        <option value="Salată de vinete">
+        <option value="Papanași">
+        <option value="Salată Beauf">
+        <option value="Șnițel">
+    </datalist>
+    <br><br>
+    <label for="culoare">Culoare preferată:</label>
+    <input type="color" id="culoare" name="culoare"><br><br>
+    <label for="dataN">Data nașterii :</label>
+    <input type="date" id="dataN" name="dataN"><br><br> 
+    <label for="oraN">Ora nașterii:</label>
+    <input type="time" id="oraN" name="oraN"><br><br>
+    <label for="varsta ">Vârsta  :</label>
+    <input type="range " id="varsta" name="varsta"><br><br> 
+    <label for="paginaUrl">Adresa paginii personale:</label>
+    <input type="url" id="paginaUrl" name="paginaUrl"><br><br>
+    <label for="Descriere">Descriere:</label>
+    <textarea rows="1"; cols="10"></textarea><br><br>
+        
+    </fieldset>
+    <br>
+    <input type="button" value="Înregistrează">
+</form>
+
 </body>
+</html>
