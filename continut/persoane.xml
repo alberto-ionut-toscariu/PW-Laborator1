@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE persoane SYSYEM "persoane.dtd">
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
 <persoane>
     <persoana id="1">
         <nume>Popescu</nume>
@@ -12,11 +12,15 @@
           <judet>Suceava</judet>
           <tara>Romania</tara>
         </adresa>
+        <experienta>
+          <job-actual> taximetrist</job-actual>
+          <studii> liceale </studii>
+        </experienta>
     </persoana>
       <persoana id="2">
         <nume>Georgescu</nume>
         <prenume>Geta</prenume>
-        <varsta>41</varsta>
+        <varsta>21</varsta>
         <adresa>
           <strada> Bucuriei </strada>
           <numar>1A </numar>
@@ -24,6 +28,10 @@
           <judet>Botosani</judet>
           <tara>Romania</tara>
         </adresa>
+        <experienta>
+          <job-actual> programator</job-actual>
+          <studii> liceale </studii>
+        </experienta>
     </persoana>
       <persoana id="3">
         <nume>Horodincu</nume>
@@ -36,6 +44,11 @@
           <judet>Nuremberg</judet>
           <tara>Germania</tara>
         </adresa>
+        <experienta>
+          <job-actual> inginer</job-actual>
+          <studii> superioare </studii>
+        </experienta>
+
     </persoana>
     
 </persoane>
