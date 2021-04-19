@@ -4,11 +4,11 @@
     <meta charset="=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Învăț Javascript </title>
-    <link rel="stylesheet" href="css/inregistreaza.css">
+    <link rel="stylesheet" href="css/invat-js.css">
     <script src="js/script.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
 </head>
-<body onload="funct1(), initialize()" >
+<body onload="funct1()" >
     <header>
         <img class = "logo" src="imagini/logo.png" alt="logo">
         <nav> 
@@ -31,42 +31,51 @@
     
     
     </header>
-<section>
     <h1>
-        Secțiune informativă
+        Secțiuni pentru JavaScript
     </h1>
-<div >
 
-    <div class = "blup">
-        Data este:
-        <span id="data"  > </span>
+    <aside>
+        <h3>  Meniu de legături catre cele 4 secțiuni!</h3>
+        <div>
+            <a href="#Sectiunea-1">Secțiunea Informativă</a>
+            <a href="#Sectiunea-2">Secțiunea Internet Loto</a>
+            <a href="#Sectiunea-3">Secțiunea de desenat pe un canvas </a>
+            <a href="#Sectiunea-4">Secțiunea ce modifică un tabel în mod dinamic</a>
+        </div>
+    </aside>
+
+
+    <section id="Sectiunea-1">
+    <h2>
+        Secțiune informativă
+    </h2>
+    <div class="elemente">
+        <div>Data este: <span id="data"> </span></div>
+        <div>Ora este:  <span id="ora"> </span></div>
+        <div>Adresa URL: este: <span id="adresaUrl"> </span></div>
+        <div>Locatia este: <span id="locatia"> </span></div>
+        <div>Nume Browser este: <span id="NBrowser"> </span></div>
+        <div>Versiunea Browser este: <span id="VBrowser"> </span></div>
+        <div>Sistemul De Operare  este: <span id="OS"> </span></div>
     </div>
-    <div class = "blup">
-        Ora este:
-        <span id="ora" > </span>
+</section>
+
+<section id="Sectiunea-2">
+    <h2>
+        Loto pe internet!
+    </h2>
+    <button onclick="funct2();"></button>
+    <div class="elemente">
+        <div>Data este: <span id="data"> </span></div>
+        <div>Ora este:  <span id="ora"> </span></div>
+        <div>Adresa URL: este: <span id="adresaUrl"> </span></div>
+        <div>Locatia este: <span id="locatia"> </span></div>
+        <div>Nume Browser este: <span id="NBrowser"> </span></div>
+        <div>Versiunea Browser este: <span id="VBrowser"> </span></div>
+        <div>Sistemul De Operare  este: <span id="OS"> </span></div>
     </div>
-    <div class = "blup">
-        Adresa URL: este:
-        <span id="adresaUrl" > </span>
-    </div>
-    <div class = "blup">
-           
-        Locatia este:
-        <span id="locatia" > </span>
-    </div>
-    <div class = "blup">
-        Nume Browser este:
-        <span id="NBrowser" > </span>
-    </div>
-    <div class = "blup">
-         Versiunea Browser este:
-        <span id="VBrowser" > </span>
-    </div>
-    <div class = "blup">
-        sistemulDeOperare  este:
-        <span id="OS" > </span>
-    </div>
-    
+</section>
  
 
 
@@ -79,7 +88,7 @@
 
 <footer>
     <div class="tuna">
-        <div class = "author">Author: Alberto</div>
+        <div class = "author">Author: Alberto ©2021</div>
         <div class = "tip">TIP: Catto is faster than Gatto!</div>
         <img class = "logo3" src="imagini/logo3.png" alt="logo3">
         

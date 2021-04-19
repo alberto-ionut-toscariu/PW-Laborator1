@@ -81,17 +81,12 @@
     cursor: pointer;
     width: 10%;
     height: 10%;
-    transition: all .2s ease-in-out;
+    transition: all .2s ease-in;
   }
   .logo:hover
   {
-          
- 
-          width: 15%;
-          height: 15%;
-          -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-          
+    -webkit-transform: scaleX(2.5);
+    transform: scaleX(2.5);  
   }
   .nav__links
   {
