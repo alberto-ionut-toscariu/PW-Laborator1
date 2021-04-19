@@ -6,7 +6,6 @@
     <title>Învăț Javascript </title>
     <link rel="stylesheet" href="css/invat-js.css">
     <script src="js/script.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
 </head>
 <body onload="funct1()" >
     <header>
@@ -65,26 +64,38 @@
     <h2>
         Loto pe internet!
     </h2>
-    <button onclick="funct2();"></button>
-    <div class="elemente">
-        <div>Data este: <span id="data"> </span></div>
-        <div>Ora este:  <span id="ora"> </span></div>
-        <div>Adresa URL: este: <span id="adresaUrl"> </span></div>
-        <div>Locatia este: <span id="locatia"> </span></div>
-        <div>Nume Browser este: <span id="NBrowser"> </span></div>
-        <div>Versiunea Browser este: <span id="VBrowser"> </span></div>
-        <div>Sistemul De Operare  este: <span id="OS"> </span></div>
+    <div id="button"><button onclick="f2();">Extragem!</button></div>
+    <h2>
+        Alegeti numerele!
+    </h2>
+    <div id="numere">
+        <input id="val0" type="text" pattern="[A-F0-9]{2}">
+        <input id="val1" type="text" pattern="[A-F0-9]{2}">
+        <input id="val2" type="text" pattern="[A-F0-9]{2}">
+        <input id="val3" type="text" pattern="[A-F0-9]{2}">
+        <input id="val4" type="text" pattern="[A-F0-9]{2}">
+        <input id="val5" type="text" pattern="[A-F0-9]{2}">
+        <input id="val6" type="text" pattern="[A-F0-9]{2}">
+        <input id="val7" type="text" pattern="[A-F0-9]{2}">
+    </div>
+    <h2 id="Numarere_Castigatoare">
+        Numerele Castigatoare sunt...
+    </h2>
+    <div id="result">
+            
     </div>
 </section>
  
-
-
-
-
-</div>
-
+<section id="Sectiunea-3">
+    <fieldset>
+        <h1>Sectiunea 3:</h1>
+        <label >Contur:</label>
+        <input id="border" type="color" >
+        <label >Umplere:</label>
+        <input id="fill" type="color" >
+        <canvas id="canvas" width="300" height="300"></canvas>
+      </fieldset>
 </section>
-
 
 <footer>
     <div class="tuna">

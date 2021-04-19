@@ -156,8 +156,13 @@ aside div a:hover
   -----------------------------------------*/
   section
   {
+    
+    border: dashed  2px blue ;
+    width: 50%;
+    padding:1em;
     margin-left:15%;
     margin-bottom: 3em;
+    margin-top:1em;
    
   }
   section h2
@@ -184,18 +189,74 @@ aside div a:hover
   /*---------------------------------------
     Sectiune2        
   -----------------------------------------*/
-
+  #button
+  {
+   text-align: center;
+  }
   button
   {
+    background: yellow;
     width: 10em;
     height: 10em;
-    border-radius: 50%;
+    border-radius: 10% 70%;
     text-align: center;
+    font-weight: bold;
+   
+    transition: 0.3s;
+
+  }
+  button:hover
+  {
+    background: yellowgreen;
+    cursor: pointer;
+  }
+  #numere input
+  {
+    background-color:wheat;
+    width: auto;
+  }
+  #numere
+  {
+    margin-bottom: 2em;
+    text-align: center;
+   
+  }
+  #result
+  {
+    text-align:center;
+    color:purple;
+    font-size: 1.5em;
+    font-weight: bold;
   }
 
   /*---------------------------------------
     Sectiune3        
   -----------------------------------------*/
+
+  #Sectiunea-3
+  {
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: 0.3em 0.3em 0.5em rgba(0,0,0,0.3 );
+  text-shadow: 0.5rem 0.5rem 0.8rem rgba(0,0,0,0.5);
+
+  }
+  fieldset
+  {
+    text-align: center;
+    
+  }
+  fieldset h1
+  {
+    margin-bottom: 2em;
+  }
+  #canvas
+  {
+    cursor: cell;
+    margin:1.5em 0 1em 0;
+    background-color: whitesmoke;
+    border-radius: 90%;
+   
+  }
 
   /*---------------------------------------
     Sectiune4        
