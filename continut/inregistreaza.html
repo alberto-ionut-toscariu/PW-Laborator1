@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="=utf-8">
     <title>Înregistrează </title>
+    <link rel="stylesheet" href="css/inregistreaza.css">
 </head>
 <body >
 
-    <hr color="red">
-    <h2 style="text-align: center;" >Meniu</h2>
-    <div style="text-align: center;">
-        <a href="index.html">Acasă </a>
-        <a href="video.html">Video</a>
-        <a href="inregistreaza.html">Înregistrează </a>
-        <a href="despre html.html">Despre</a>
-        <a href="desen.html">Desen</a>
-    </div>
-    <hr color="red">
-    <h3>Înregistrează</h3><br>
+    <header>
+        <img class = "logo" src="imagini/logo.png" alt="logo">
+        <nav> 
+            <div id="menu">
+                <div id="menu-title">
+                <h1>Menu</h1>
+                </div>
+                <div class="nav__links">
+                    <div class="link"> <a href="index.html">Acasă</a></div>
+                    <div class="link"> <a href="video.html">Video</a></div>
+                    <div class="link"> <a href="inregistreaza.html">Înregistrează</a></div>
+                    <div class="link"><a href="despre html.html">Despre</a></div>
+                    <div class="link"> <a href="desen.html">Desen</a></div>
+                </div>
+            </div> 
+            
+        </nav>
+        <img class = "logo" src="imagini/logo2.png" alt="logo2">
+    
+    
+    </header>
+
+    <h1 class="inregistreaza">Înregistrează</h1>
+
+
     <form>
         <legend>Form:</legend>
     <fieldset>
@@ -85,8 +101,17 @@
         
     </fieldset>
     <br>
-    <input type="button" value="Înregistrează" disabled>
+    
 </form>
-
+<input id="submit-button" type="button" value="Înregistrează" disabled>
+<h1 class="footer">Footer</h1>
+<footer>
+   <div class="tuna">
+       <div class = "author">Author: Alberto</div>
+       <div class = "tip">TIP: If you don't pet your catto you get the tomato!</div>
+       <img class = "logo3" src="imagini/logo3.png" alt="logo3">
+       
+   </div> 
+</footer>
 </body>
 </html>
