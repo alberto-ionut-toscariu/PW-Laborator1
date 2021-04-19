@@ -21,7 +21,6 @@ h1 {
     flex: 1 1;
     border-bottom: 1px solid;
     margin: auto;
-    margin-bottom: 3em;
   }
   h1:before {
     margin-right: 10px
@@ -52,6 +51,7 @@ h1 {
 
   header{
     display:flex;
+    flex-flow:nowrap row;
     justify-content: space-between;
     align-items:center;
     padding: 30px 10%;
@@ -127,9 +127,12 @@ h1 {
   }
 
   /*---------------------------------------
-     Tabel          
+     Desen          
   -----------------------------------------*/
-
+  #desen
+  {
+      margin-bottom: 4em;
+  }
    /*---------------------------------------
       FOOTER           
   -----------------------------------------*/ 
