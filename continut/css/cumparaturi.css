@@ -1,0 +1,249 @@
+
+/*---------------------------------------
+       General           
+  -----------------------------------------*/
+  @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,500&display=swap');
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    color:black;
+  }
+  h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h1:before {
+    margin-right: 10px
+  }
+  h1:after {
+    margin-left: 10px
+  }
+
+/*---------------------------------------
+      BODY           
+  -----------------------------------------*/
+
+  body {
+    background-image: url("../imagini/background4.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+   /*  background: linear-gradient(270deg, rgb(34, 28, 145) 0%, rgb(14, 14, 236) 35%, rgb(134, 44, 146) 100%);
+     */
+    color:black;
+    font-family: 'Zilla Slab', serif;
+   
+    text-decoration:none;}
+/*---------------------------------------
+      Menu          
+  -----------------------------------------*/
+
+  header{
+    display:flex;
+    flex-flow:nowrap row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+    
+  }
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    text-decoration: none;
+    
+  }
+  #menu
+  {
+    background-image: url("../imagini/background3.jpg"); 
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size:cover;
+  
+    
+    padding: 10px;
+    opacity: 0.9;
+  }
+  .logo
+  {
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+    transition: all .2s ease-in-out;
+  }
+  .logo:hover
+  {
+    -webkit-transform: scaleX(2.5);
+    transform: scaleX(2.5);  
+  }
+  .nav__links
+  {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .nav__links div a{
+    padding: 20px 20px;
+  }
+
+  .nav__links div a
+  {
+    transition: all 0.3 ease-out 0s;
+    text-decoration: none;
+    color:purple;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .nav__links div a:hover
+  {
+    color:red;
+
+    
+  }
+ 
+  .link:hover
+  {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+    border-radius: 50px;
+    border-color:white;
+   
+
+  }
+
+  /*---------------------------------------
+     CUMPARATURI         
+  -----------------------------------------*/
+ #cumparaturi
+ {
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0.3em 0.3em 0.5em rgba(0,0,0,0.3 );
+    text-shadow: 0.5rem 0.5rem 0.8rem rgba(0,0,0,0.5);
+    width: 100vh;
+    margin:3em auto 3em auto;
+     padding: 1em;
+ }
+  #cumparaturi h2
+  {
+    
+  }
+  form
+  {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-evenly;
+      text-align: center;
+      margin: 3em auto 3em auto;
+      
+
+  }
+  form .element-inp
+  {
+      display: flex;
+      flex-flow: column nowrap;
+  }
+  #lista-cumparaturi
+  {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 3em;
+
+  }
+  #title-cp
+  {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-evenly;
+      text-align: center;
+      font-size: 1.3em;
+      font-weight: bold;
+      color:purple;
+      
+  }
+  .placeholder
+  {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-evenly;
+      text-align: center;
+      font-size: 1.3em;
+      font-weight: bold;
+      
+  }
+   /*---------------------------------------
+      FOOTER           
+  -----------------------------------------*/ 
+.footer
+{
+
+  margin-bottom: 30px;
+}
+ footer
+ {
+    margin-top: 2em;
+   color:white;
+   padding:100px 10px 100px 10px;
+   background-image: url("../imagini/cat.jpeg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size:cover;
+
+ }
+
+ footer .tuna
+ {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-evenly;
+   padding: 50px 0 20px 0;
+  background-color: rgba(0,0,0,0.9);
+  box-shadow: 0.3em 0.3em 0.5em rgba(0,0,0,0.3   );
+  text-shadow: 0.5rem 0.5rem 0.8rem rgba(0,0,0,0.5);
+  text-align: center;
+  font-size: 30px;
+ }
+ .author
+ {
+    margin-right:10px;
+
+ }
+ .author:hover
+ {
+   color: red;
+ }
+ .tip:hover
+ {
+  color:pink;
+  cursor:not-allowed;
+ }
+
+ .logo3
+ {
+   cursor: pointer;
+   width: 10%;
+   height: 10%;
+   transition: all 1s ease-in-out;
+ }
+ .logo3:hover
+ {
+         
+
+         width: 15%;
+         height: 15%;
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+         
+ }
+
+

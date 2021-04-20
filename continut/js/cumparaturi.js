@@ -4,7 +4,7 @@ class Produs{
     {
         this.nume_produs=nume_produs;
         this.cantitate=cantitate;
-        this.id=0;
+        this.id=1;
     }
 
   }
@@ -17,8 +17,8 @@ var nume_produs = document.getElementsByName( 'nume_produs' )[0].value;
 var prod2=new Produs(nume_produs,cantitate)
 
 
-document.getElementById("placeholder").innerHTML =
-"Ati comandat un/o " + prod2.nume_produs + " in cantitate de "+prod2.cantitate+" produse"; 
+document.getElementById("placeholder").innerHTML +=
+"<div class="+"placeholder"+"><div>"+prod2.id+"</div><div> " + prod2.nume_produs + " </div><div> "+prod2.cantitate+" </div><div>"; 
 }
 
 

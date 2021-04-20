@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="=utf-8">
     <title>Cumparaturi </title>
+    <link rel="stylesheet" href="css/cumparaturi.css">
     <script src = "js/cumparaturi.js" >  </script>
 </head>
 <body>
-        <h1 style="margin-bottom: 2em;">Cumparaturi</h1>
+    <header>
+        <img class = "logo" src="imagini/logo.png" alt="logo">
+        <nav> 
+            <div id="menu">
+                <div id="menu-title">
+                <h1>Menu</h1>
+                </div>
+                <div class="nav__links">
+                    <div class="link"> <a href="index.html">Acasă</a></div>
+                    <div class="link"> <a href="video.html">Video</a></div>
+                    <div class="link"> <a href="inregistreaza.html">Înregistrează</a></div>
+                    <div class="link"><a href="despre html.html">Despre</a></div>
+                    <div class="link"> <a href="desen.html">Desen</a></div>
+                    <div class="link"> <a href="invat_js.html">Javascript</a></div>
+                    <div class="link"> <a href="cumparaturi.html">Cumparaturi</a></div>
+                </div>
+            </div> 
+            
+        </nav>
+        <img class = "logo" src="imagini/logo2.png" alt="logo2">
+    
+    
+    </header>
+    <h1 class="acasa">Cumparaturi</h1>
+    <section id="cumparaturi">
+       <h2>Cumparaturi</h2>
+        <form>  
+            <div class="element-inp">
+                <div>Nume Produs: </div>
+                <input type = "text" name="nume_produs" value="">
+            </div>
+            <div class="element-inp">
+                <div>Cantitate: </div>
+                <input type = "number" name="cantitate" value="">
+            </div>
+            <input type = "button" onclick = "Adauga()" value = "Adauga">  
 
-    <form>  
-        
-        Nume Produs: <input type = "text" name="nume_produs" value=""><br>
-        Cantitate: <input type = "number" name="cantitate" value=""><br>
+        </form>
 
-        <input type = "button" onclick = "Adauga()" value = "Display">  
+        <div id="lista-cumparautri">
+            <div>
+                <div id="title-cp">
+                    <div>Nr.</div>  
+                    <div>Nume Produs</div>
+                    <div>Cantitate</div>
+            </div>
+            <hr>
+            <div id="placeholder"></div>
+            
+        </div>
 
-        <div id="placeholder"></div>
+    </section>
 
-    </form>
+
+ 
+ 
+
+    <footer>
+        <div class="tuna">
+            <div class = "author">Author: Alberto ©2021</div>
+            <div class = "tip">TIP: Buy me some tuna!</div>
+            <img class = "logo3" src="imagini/logo3.png" alt="logo3">
+            
+        </div> 
+     </footer>
 </body>
 </html>
