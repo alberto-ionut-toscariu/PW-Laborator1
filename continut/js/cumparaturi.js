@@ -1,3 +1,4 @@
+var id=1;
 class Produs{
    
     constructor(nume_produs,cantitate)
@@ -18,7 +19,8 @@ var prod2=new Produs(nume_produs,cantitate)
 
 
 document.getElementById("placeholder").innerHTML +=
-"<div class="+"placeholder"+"><div>"+prod2.id+"</div><div> " + prod2.nume_produs + " </div><div> "+prod2.cantitate+" </div><div>"; 
+"<div class="+"placeholder"+"><div>"+id+"</div><div> " + prod2.nume_produs + " </div><div> "+prod2.cantitate+" </div><div>"; 
+id++;
 }
 
 
